@@ -1,0 +1,407 @@
+/*Zylon Stylesheet CSS - zstylesheet.css - v0.1
+-------------------------------------------
+
+Part of Project Zylon though licensed under Creative Commons Zero 1.0 Universal (CC0 1.0). License can be viewed at: https://creativecommons.org/publicdomain/zero/1.0/
+Need help? Refer to the Zylon Guide at: (ebookbuild.github.io/ - link doesn't work yet)
+
+Exact values are recommended. Avoid using words such as small to describe the size of a font or red for the colour.
+Use ems instead of percentages.
+
+-------------------------------------------*/
+
+/*Titles*/
+
+h1.title
+{
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2.title
+{
+	font-size: 1.7em;
+	font-weight: normal;
+	text-align: center;
+}
+
+h3.title
+{
+	font-size: 1.5em;
+	font-weight: normal;
+	text-align: center;
+	font-variant: normal;
+}
+
+h4.title
+{
+	margin-top: 7em;
+	font-size: 1.2em;
+	font-weight: normal;
+	text-align: center;
+}
+
+/*Indicia Headings*/
+
+h1.indicia-heading
+{
+	text-align: center;
+	font-size: small; /*small works best here rather than a specific em*/
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+/*Chapter Headings*/
+
+h1.heading
+{
+	font-size: 1.5em;
+	font-family: serif;
+	font-weight: bold;
+	text-align: left;
+}
+
+/*Contents headings*/
+
+h1.toc
+{
+	margin: 0em;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+h2.toc
+{
+	margin: 0em;
+	text-indent: 1em;
+	font-size: 1.1em;
+	font-variant: normal;
+	font-weight: normal;
+}
+
+h1.indent, h2.indent
+{
+	margin: 0em;
+	text-indent: 1em;
+}
+
+/*Sub Headings*/
+
+h1.subheading
+{
+	font-size: 1.2em;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: right;
+}
+
+h2.subheading
+{
+	font-size: 1.2em;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+h3.subheading
+{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+h4.subheading
+{
+	font-size: 1em;
+	font-weight: bold;
+	text-align: left;
+	font-variant: none;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.part
+{
+	margin-top: 20em;
+}
+
+/*Book-specific headings*/
+
+h1.protip-heading
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+/*Paragraphs*/
+
+p
+{
+	font-size: 1em;
+	font-family: serif;
+	margin: 0px 0em 0em 0em;
+	text-align: justify;
+	text-indent: 1em;
+	hyphens: none;
+}
+
+p.indicia, .indicia
+{
+	font-size: small; /*0.8em or small*/
+	text-align: center !important;
+	text-indent: 0em !important;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+p.small-text, .small-text /*For the indicia*/
+{
+	font-size: 0.7em; /*0.8em or small*/
+}
+
+p.noindent, .noindent /*Every starting paragraph should start with this.*/
+{
+	text-indent: 0em !important;
+}
+
+p.top, .top
+{
+	margin-top: 1em;
+}
+
+p.top2, .top2
+{
+	margin-top: 2em;
+}
+
+p.bottom, .bottom
+{
+	margin-bottom: 1em;
+}
+
+p.bottom2, .bottom2
+{
+	margin-bottom: 2em;
+}
+
+p.left, .left
+{
+	text-align: left;
+}
+
+p.center, .center
+{
+	text-align: center !important;
+  text-indent: 0em !important;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+p.right, .right
+{
+	text-align: right;
+}
+
+p.sans, .sans
+{
+	font-family: sans-serif;
+}
+
+p.mono, .mono
+{
+	font-family: monospace;
+}
+
+/*Quotes*/
+/*Quotes are used to show a quote by a person or source. Recommended to write the quote in italics, though this isn't set in the CSS by default.*/
+
+p.noindent-quote
+{
+	text-align: justify;
+	text-indent: 0em;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 0.9em;
+	font-style: normal;
+}
+
+p.quote
+{
+	text-align: justify;
+	text-indent: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 0.9em;
+	font-style: normal;
+}
+
+p.quote2
+{
+	text-align: justify;
+	text-indent: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 0.9em;
+	font-style: normal;
+}
+
+/*References*/
+
+p.ref, .ref
+{
+	margin-left: 0em;
+	font-size: 0.9em;
+}
+
+/*Book-specific paragraphs*/
+
+p.protip
+{
+	text-align: center;
+	margin: 1em;
+}
+
+/*Initial Letter*/
+/*Intial letters (also known as dropcaps or illuminated letters) are the large letters used at the start of a chapter for emphasis.*/
+
+.initial /*Code snagged from Wikipedia.*/
+{
+	float: left;
+	font-weight: bold;
+	font-size: 3.5em;
+	line-height: 0.95em;
+	margin-right: 0.10em;
+	vertical-align: baseline;
+}
+
+/*Formatting*/
+/*Use <span></span> tags use these for formatting the e-book’s text*/
+
+.sc /*Adds small caps to text*/
+{
+	font-variant: small-caps;
+}
+
+.uli /*Underlines text*/
+{
+	text-decoration: underline;
+}
+
+.st /* Strikes through the text */
+{
+	text-decoration: line-through;
+}
+
+/*Text Alignment*/
+
+/*Lists (Ordered and Unordered)*/
+
+ol, ul
+{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+li
+{
+  margin-bottom: 0em;
+  hyphens: none;
+}
+
+p.sublist, .sublist
+{
+	margin: 0em;
+}
+
+.nobullet
+{
+	text-indent: 0em;
+	list-style-type: none;
+}
+
+/*Tables*/
+table
+{
+  margin-top: 2em;
+  margin-bottom: 2em;
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: #000;
+}
+
+td, th
+{
+  text-indent: 0em !important;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  padding-top: 0.2em;
+  margin-left: 0em;
+  margin-right: 0em;
+  vertical-align: top;
+  text-align: center;
+  page-break-inside: avoid;
+  hyphens: none;
+  font-size: 0.9em;
+	border-style: solid;
+	border-width: 0.2em;
+	border-color: #000;
+}
+
+/*Images*/
+
+.image-center
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	/*border: solid 2px; Useful for debugging.*/
+}
+
+.image-left
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0em;
+	margin-right: 0em;
+	width: 100%;
+	/*border: solid 2px; Useful for debugging.*/
+}
+
+p.image, .image
+{
+	display: block;
+	margin: auto;
+	/*border: solid red 1px;*/
+}
+
+.figure-caption
+{
+	margin-bottom: 1em;
+	font-size: 1em;
+	text-align: center !important;
+	color: #434343;
+	/*border: solid 1px;*/
+}
+
+/*Book-specific divs*/
+
+div.protip
+{
+		margin-top: 1em;
+		margin-bottom: 1em;
+		font-size: 1em;
+		text-align: center;
+		border: #000 solid 2px;
+}
+
+/*RTL (Right-to-Left) - For Arabic, Persian, Hebrew, etc...*/
+
+p.rtl, .rtl
+{
+	direction: rtl;
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:title>Linux is Badass - Slightly More Badass Edition</dc:title>
+		<dc:creator>Bryan Lunduke</dc:creator>
+		<dc:subject>Technology</dc:subject>
+		<dc:publisher>Lunduke</dc:publisher>
+		<dc:identifier id="bookid">978-1-365-05209-5</dc:identifier>
+		<dc:date>2018-04-15</dc:date>
+		<dc:language>en</dc:language>
+		<dc:rights>Creative Commons BY-SA-NC 4.0</dc:rights>
+		<meta content="cover" name="cover"/>
+	</metadata>
+	<manifest>
+		<item href="styles/zstylesheet.css" id="css0" media-type="text/css"/>
+		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+		<item href="images/backcover.png" id="image0" media-type="image/png"/>
+		<item href="images/by-nc-sa.png" id="image1" media-type="image/png"/>
+		<item href="images/cc-zero.png" id="image2" media-type="image/png"/>
+		<item href="images/cover.png" id="cover" media-type="image/png"/>
+		<item href="images/indicia.png" id="image3" media-type="image/png"/>
+		<item href="bookcover.xhtml" id="bookcover" media-type="application/xhtml+xml"/>
+		<item href="title.xhtml" id="title" media-type="application/xhtml+xml"/>
+		<item href="indicia.xhtml" id="indicia" media-type="application/xhtml+xml"/>
+		<item href="license.xhtml" id="license" media-type="application/xhtml+xml"/>
+		<item href="toc.xhtml" id="toc" media-type="application/xhtml+xml"/>
+		<item href="boringintroduction.xhtml" id="boringintroduction" media-type="application/xhtml+xml"/>
+		<item href="badassintroduction.xhtml" id="badassintroduction" media-type="application/xhtml+xml"/>
+		<item href="badassbycomparison.xhtml" id="badassbycomparison" media-type="application/xhtml+xml"/>
+		<item href="itjustworks.xhtml" id="itjustworks" media-type="application/xhtml+xml"/>
+		<item href="nobodyhasabadasscar.xhtml" id="nobodyhasabadasscar" media-type="application/xhtml+xml"/>
+		<item href="saygnulinux.xhtml" id="saygnulinux" media-type="application/xhtml+xml"/>
+		<item href="badassleadership.xhtml" id="badassleadership" media-type="application/xhtml+xml"/>
+		<item href="linuxadventure.xhtml" id="linuxadventure" media-type="application/xhtml+xml"/>
+		<item href="enhancedintroduction.xhtml" id="enhancedintroduction" media-type="application/xhtml+xml"/>
+		<item href="shetook.xhtml" id="shetook" media-type="application/xhtml+xml"/>
+		<item href="farewell.xhtml" id="farewell" media-type="application/xhtml+xml"/>
+		<item href="debianhaiku.xhtml" id="debianhaiku" media-type="application/xhtml+xml"/>
+		<item href="ubuntuhaiku.xhtml" id="ubuntuhaiku" media-type="application/xhtml+xml"/>
+		<item href="mageiahaiku.xhtml" id="mageiahaiku" media-type="application/xhtml+xml"/>
+		<item href="minthaiku.xhtml" id="minthaiku" media-type="application/xhtml+xml"/>
+		<item href="classyhaiku.xhtml" id="classyhaiku" media-type="application/xhtml+xml"/>
+		<item href="limerickspackagemanagement.xhtml" id="limerickspackagemanagement" media-type="application/xhtml+xml"/>
+		<item href="meritsfedora.xhtml" id="meritsfedora" media-type="application/xhtml+xml"/>
+		<item href="myeyes.xhtml" id="myeyes" media-type="application/xhtml+xml"/>
+		<item href="archlimerick.xhtml" id="archlimerick" media-type="application/xhtml+xml"/>
+		<item href="odetounity.xhtml" id="odetounity" media-type="application/xhtml+xml"/>
+		<item href="historyofubuntu.xhtml" id="historyofubuntu" media-type="application/xhtml+xml"/>
+		<item href="backcover.xhtml" id="backcover" media-type="application/xhtml+xml"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="bookcover"/>
+		<itemref idref="title"/>
+		<itemref idref="indicia"/>
+		<itemref idref="license"/>
+		<itemref idref="toc"/>
+		<itemref idref="boringintroduction"/>
+		<itemref idref="badassintroduction"/>
+		<itemref idref="badassbycomparison"/>
+		<itemref idref="itjustworks"/>
+		<itemref idref="nobodyhasabadasscar"/>
+		<itemref idref="saygnulinux"/>
+		<itemref idref="badassleadership"/>
+		<itemref idref="linuxadventure"/>
+		<itemref idref="enhancedintroduction"/>
+		<itemref idref="shetook"/>
+		<itemref idref="farewell"/>
+		<itemref idref="debianhaiku"/>
+		<itemref idref="ubuntuhaiku"/>
+		<itemref idref="mageiahaiku"/>
+		<itemref idref="minthaiku"/>
+		<itemref idref="classyhaiku"/>
+		<itemref idref="limerickspackagemanagement"/>
+		<itemref idref="meritsfedora"/>
+		<itemref idref="myeyes"/>
+		<itemref idref="archlimerick"/>
+		<itemref idref="odetounity"/>
+		<itemref idref="historyofubuntu"/>
+		<itemref idref="backcover"/>
+	</spine>
+</package>

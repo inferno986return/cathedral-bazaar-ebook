@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="http://www.w3.org/1999/xhtml; charset=utf-8" http-equiv="Content-Type"/>
+<link href="styles/zstylesheet.css" rel="stylesheet" type="text/css"/>
+<title>The Mail Must Get Through</title>
+</head>
+
+<body>
+	<h1 class="heading">The Mail Must Get Through</h1>
+
+	<p class="noindent"><span class="initial">S</span>ince 1993 I'd been running the technical side of a small free-access Internet service provider called Chester County InterLink (CCIL) in West Chester, Pennsylvania. I co-founded CCIL and wrote our unique multiuser bulletin-board software—you can check it out by telnetting to locke.ccil.org. Today it supports almost three thousand users on thirty lines. The job allowed me 24-hour-a-day access to the net through CCIL's 56K line—in fact, the job practically demanded it!</p>
+
+I had gotten quite used to instant Internet email. I found having to periodically telnet over to locke to check my mail annoying. What I wanted was for my mail to be delivered on snark (my home system) so that I would be notified when it arrived and could handle it using all my local tools.
+
+The Internet's native mail forwarding protocol, SMTP (Simple Mail Transfer Protocol), wouldn't suit, because it works best when machines are connected full-time, while my personal machine isn't always on the Internet, and doesn't have a static IP address. What I needed was a program that would reach out over my intermittent dialup connection and pull across my mail to be delivered locally. I knew such things existed, and that most of them used a simple application protocol called POP (Post Office Protocol). POP is now widely supported by most common mail clients, but at the time, it wasn't built in to the mail reader I was using.
+
+I needed a POP3 client. So I went out on the Internet and found one. Actually, I found three or four. I used one of them for a while, but it was missing what seemed an obvious feature, the ability to hack the addresses on fetched mail so replies would work properly.
+
+The problem was this: suppose someone named `joe' on locke sent me mail. If I fetched the mail to snark and then tried to reply to it, my mailer would cheerfully try to ship it to a nonexistent `joe' on snark. Hand-editing reply addresses to tack on <@ccil.org> quickly got to be a serious pain.
+
+This was clearly something the computer ought to be doing for me. But none of the existing POP clients knew how! And this brings us to the first lesson:
+
+1. Every good work of software starts by scratching a developer's personal itch.
+
+Perhaps this should have been obvious (it's long been proverbial that ``Necessity is the mother of invention'') but too often software developers spend their days grinding away for pay at programs they neither need nor love. But not in the Linux world—which may explain why the average quality of software originated in the Linux community is so high.
+
+So, did I immediately launch into a furious whirl of coding up a brand-new POP3 client to compete with the existing ones? Not on your life! I looked carefully at the POP utilities I had in hand, asking myself ``Which one is closest to what I want?'' Because:
+
+2. Good programmers know what to write. Great ones know what to rewrite (and reuse).
+
+While I don't claim to be a great programmer, I try to imitate one. An important trait of the great ones is constructive laziness. They know that you get an A not for effort but for results, and that it's almost always easier to start from a good partial solution than from nothing at all.
+
+Linus Torvalds, for example, didn't actually try to write Linux from scratch. Instead, he started by reusing code and ideas from Minix, a tiny Unix-like operating system for PC clones. Eventually all the Minix code went away or was completely rewritten—but while it was there, it provided scaffolding for the infant that would eventually become Linux.
+
+In the same spirit, I went looking for an existing POP utility that was reasonably well coded, to use as a development base.
+
+The source-sharing tradition of the Unix world has always been friendly to code reuse (this is why the GNU project chose Unix as a base OS, in spite of serious reservations about the OS itself). The Linux world has taken this tradition nearly to its technological limit; it has terabytes of open sources generally available. So spending time looking for some else's almost-good-enough is more likely to give you good results in the Linux world than anywhere else.
+
+And it did for me. With those I'd found earlier, my second search made up a total of nine candidates—fetchpop, PopTart, get-mail, gwpop, pimp, pop-perl, popc, popmail and upop. The one I first settled on was `fetchpop' by Seung-Hong Oh. I put my header-rewrite feature in it, and made various other improvements which the author accepted into his 1.9 release.
+
+A few weeks later, though, I stumbled across the code for popclient by Carl Harris, and found I had a problem. Though fetchpop had some good original ideas in it (such as its background-daemon mode), it could only handle POP3 and was rather amateurishly coded (Seung-Hong was at that time a bright but inexperienced programmer, and both traits showed). Carl's code was better, quite professional and solid, but his program lacked several important and rather tricky-to-implement fetchpop features (including those I'd coded myself).
+
+Stay or switch? If I switched, I'd be throwing away the coding I'd already done in exchange for a better development base.
+
+A practical motive to switch was the presence of multiple-protocol support. POP3 is the most commonly used of the post-office server protocols, but not the only one. Fetchpop and the other competition didn't do POP2, RPOP, or APOP, and I was already having vague thoughts of perhaps adding IMAP (Internet Message Access Protocol, the most recently designed and most powerful post-office protocol) just for fun.
+
+But I had a more theoretical reason to think switching might be as good an idea as well, something I learned long before Linux.
+
+3. ``Plan to throw one away; you will, anyhow.'' (Fred Brooks, The Mythical Man-Month, Chapter 11)
+
+Or, to put it another way, you often don't really understand the problem until after the first time you implement a solution. The second time, maybe you know enough to do it right. So if you want to get it right, be ready to start over at least once [JB].
+
+Well (I told myself) the changes to fetchpop had been my first try. So I switched.
+
+After I sent my first set of popclient patches to Carl Harris on 25 June 1996, I found out that he had basically lost interest in popclient some time before. The code was a bit dusty, with minor bugs hanging out. I had many changes to make, and we quickly agreed that the logical thing for me to do was take over the program.
+
+Without my actually noticing, the project had escalated. No longer was I just contemplating minor patches to an existing POP client. I took on maintaining an entire one, and there were ideas bubbling in my head that I knew would probably lead to major changes.
+
+In a software culture that encourages code-sharing, this is a natural way for a project to evolve. I was acting out this principle:
+
+4. If you have the right attitude, interesting problems will find you.
+
+But Carl Harris's attitude was even more important. He understood that
+
+5. When you lose interest in a program, your last duty to it is to hand it off to a competent successor.
+
+Without ever having to discuss it, Carl and I knew we had a common goal of having the best solution out there. The only question for either of us was whether I could establish that I was a safe pair of hands. Once I did that, he acted with grace and dispatch. I hope I will do as well when it comes my turn.n order to declare something to be officially fucking badass, we must first create a baseline from which we can measure.  So let's take a look at all the other piece of shit operating systems out there to see if any of them are badass or not.</p>
+	<p>Let's start with an exercise. Stand up, wherever you are, and say the following:</p>
+	<p>“OH SNAP!  Did you see that copy of Windows that he's running on that PC over there?  That's just like the one my Aunt Tabitha uses! Badass!  I am blown away by how homogeneously hardcore that is!”</p>
+	<p>Now take note of the fact that you feel like a retard just for saying that. In fact, this is the first time, in human history, that those words have been put together in that order.  And it caused three of my fingers to spontaneously erupt into flames while I typed them out.</p>
+	<p>[They didn't, actually.  I'm just pulling your leg there.  My fingers are fine.]</p>
+	<p>“But, what about a Mac?  Those are pretty cool!” I hear some of you saying.</p>
+	<p>No. No they are not.  And you are a bad person for having said so. Here. Let me help you out with a flowchart.</p>
+	<p>…</p>
+	<p>Ah, fuck it.  I'm too lazy to make a flowchart.  Just imagine one where there's a fuck-ton of arrows leading from “You Think Using a Mac is Cool” to “You Are a Bad Person”.</p>
+	<p>But why?  Why are those other systems such steaming piles of donkey crap when compared with the badass – and minty fresh – awesomeness of Linux?  Excellent question!</p>
+	<p>One might think that Linux is great simply by its very nature of not
+	being Windows or MacOS.  But that thought would be wrong.  Let me
+	paint a kick-ass picture for you.</p>
+	<p>During a major league baseball game, you come up to bat.</p>
+	<p>I know.  Sports metaphor.  Stick with me here.</p>
+	<p>You step up to the plate, grip your bat, do that thing all baseball players do where they kick the dirt a little bit, and gaze out at the opposing team's pitcher.  Right about then you notice that he doesn't seem to be getting ready to throw the ball at you at all. In fact he looks like he's taking a wicked shit in his pants. Then he sits down, right there on the pitcher's mound, and eats a ham sandwich.</p>
+	<p>[Seriously. What the fuck is the deal with that thing where they kick the dirt as they step up to the home plate?  Was the dirt not level enough? Was there something sparkly down there and they just needed to check it out real quick?  Makes no damned sense.]</p>
+	<p>Looking around you notice all the other players on the field are also sitting down, pants full of their own doody, eating ham sandwiches.</p>
+	<p>This does not mean that you are the best fucking baseball player to ever play the game.  All it means is that you didn't shit yourself and eat a ham sandwich.  At least, not right at that moment.</p>
+	<p>[Though, now that I think about it, that is a good first step!]</p>
+	<p>It means is that you have a chance.  The other players' incontinence (and non-Kosher diets) have given you an opportunity – a shot at being badass.  What you do with that shot is up to you.</p>
+	<p>Now... I'm not saying that Windows and MacOS have full britches (in the not-awesome way).  But they are about as far from badass as you can get.  And that not only gave Linux the opportunity to badass it up, but the motivation as well.</p>
+	<p>“Motivation? How does having Windows and MacOS metaphorically crap themselves give motivation to... anyone?”</p>
+	<p>Nature abhors a vacuum.</p>
+	<p>“Whut?”</p>
+	<p>If a field has no plants, some will soon grow.  If you have a tribe of warriors, one man must rise up to lead them.  If no badass Operating System exists, one must be made.</p>
+	<p>And that, my dear friends, is why Linux is badass.  Because it must be.</p>
+
+</body>
+</html>

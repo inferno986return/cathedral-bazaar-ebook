@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head>
+	<meta name="dtb:uid" content="978-1-365-05209-5" />
+	<meta name="dtb:depth" content="1" />
+	<meta name="dtb:totalPageCount" content="0" />
+	<meta name="dtb:maxPageNumber" content="0" />
+</head>
+<docTitle>
+	<text>Linux is Badass</text>
+</docTitle>
+<navMap>
+	<navPoint id="navpoint-1" playOrder="1">
+		<navLabel>
+			<text>Front Cover</text>
+		</navLabel>
+		<content src="bookcover.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-2" playOrder="2">
+		<navLabel>
+			<text>Title</text>
+		</navLabel>
+		<content src="title.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-3" playOrder="3">
+		<navLabel>
+			<text>Indicia</text>
+		</navLabel>
+		<content src="indicia.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-4" playOrder="4">
+		<navLabel>
+			<text>License</text>
+		</navLabel>
+		<content src="license.xhtml" />
+		<navPoint id="navpoint-5" playOrder="5">
+				<navLabel>
+					<text>Content license</text>
+				</navLabel>
+				<content src="license.xhtml#content-license" />
+		</navPoint>
+		<navPoint id="navpoint-6" playOrder="6">
+				<navLabel>
+					<text>E-book license</text>
+				</navLabel>
+				<content src="license.xhtml#ebook-license" />
+		</navPoint>
+	</navPoint>
+	<navPoint id="navpoint-7" playOrder="7">
+		<navLabel>
+			<text>Table of Contents</text>
+		</navLabel>
+		<content src="toc.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-8" playOrder="8">
+		<navLabel>
+			<text>A Very Boring Introduction</text>
+		</navLabel>
+		<content src="boringintroduction.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-9" playOrder="9">
+		<navLabel>
+			<text>A Badass Introduction</text>
+		</navLabel>
+		<content src="badassintroduction.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-10" playOrder="10">
+		<navLabel>
+			<text>Badass by Comparison</text>
+		</navLabel>
+		<content src="badassbycomparison.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-11" playOrder="11">
+		<navLabel>
+			<text>It just works? Fuck that!</text>
+		</navLabel>
+		<content src="itjustworks.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-12" playOrder="12">
+		<navLabel>
+			<text>If everyone on earth drives a 1993 Toyota Corolla... nobody has a badass car</text>
+		</navLabel>
+		<content src="nobodyhasabadasscar.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-13" playOrder="13">
+		<navLabel>
+			<text>Say GNU/Linux One More Time. I dare ya</text>
+		</navLabel>
+		<content src="saygnulinux.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-14" playOrder="14">
+		<navLabel>
+			<text>Badass Leadership. (Or 'My crazy, neck beard dude can beat up your marketing dude.')</text>
+		</navLabel>
+		<content src="badassleadership.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-15" playOrder="15">
+		<navLabel>
+			<text>Linux is Badass – The Adventure</text>
+		</navLabel>
+		<content src="linuxadventure.xhtml" />
+		<navPoint id="navpoint-16" playOrder="16">
+				<navLabel>
+					<text>Part 1</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part1" />
+		</navPoint>
+		<navPoint id="navpoint-17" playOrder="17">
+				<navLabel>
+					<text>Part 2</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part2" />
+		</navPoint>
+		<navPoint id="navpoint-18" playOrder="18">
+				<navLabel>
+					<text>Part 3</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part3" />
+		</navPoint>
+		<navPoint id="navpoint-19" playOrder="19">
+				<navLabel>
+					<text>Part 4</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part4" />
+		</navPoint>
+		<navPoint id="navpoint-20" playOrder="20">
+				<navLabel>
+					<text>Part 5</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part5" />
+		</navPoint>
+		<navPoint id="navpoint-21" playOrder="21">
+				<navLabel>
+					<text>Part 6</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part6" />
+		</navPoint>
+		<navPoint id="navpoint-22" playOrder="22">
+				<navLabel>
+					<text>Part 7</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part7" />
+		</navPoint>
+		<navPoint id="navpoint-23" playOrder="23">
+				<navLabel>
+					<text>Part 8</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part8" />
+		</navPoint>
+		<navPoint id="navpoint-24" playOrder="24">
+				<navLabel>
+					<text>Part 9</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part9" />
+		</navPoint>
+		<navPoint id="navpoint-25" playOrder="25">
+				<navLabel>
+					<text>Part 10</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part10" />
+		</navPoint>
+		<navPoint id="navpoint-26" playOrder="26">
+				<navLabel>
+					<text>Part 11</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part11" />
+		</navPoint>
+		<navPoint id="navpoint-27" playOrder="27">
+				<navLabel>
+					<text>Part 12</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part12" />
+		</navPoint>
+		<navPoint id="navpoint-28" playOrder="28">
+				<navLabel>
+					<text>Part 13</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part13" />
+		</navPoint>
+		<navPoint id="navpoint-29" playOrder="29">
+				<navLabel>
+					<text>Part 14</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part14" />
+		</navPoint>
+		<navPoint id="navpoint-30" playOrder="30">
+				<navLabel>
+					<text>Part 15</text>
+				</navLabel>
+				<content src="linuxadventure.xhtml#part15" />
+		</navPoint>
+	</navPoint>
+	<navPoint id="navpoint-31" playOrder="31">
+		<navLabel>
+			<text>Slightly Enhanced Introduction (2014)</text>
+		</navLabel>
+		<content src="enhancedintroduction.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-32" playOrder="32">
+		<navLabel>
+			<text>She took my dog, my truck and my gratuitous desktop effects.</text>
+		</navLabel>
+		<content src="shetook.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-33" playOrder="33">
+		<navLabel>
+			<text>Farewell, sweet XOrg</text>
+		</navLabel>
+		<content src="farewell.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-34" playOrder="34">
+		<navLabel>
+			<text>Woo! Debian Haiku Free-for-all!</text>
+		</navLabel>
+		<content src="debianhaiku.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-35" playOrder="35">
+		<navLabel>
+			<text>Ubuntu Haiku Time</text>
+		</navLabel>
+		<content src="ubuntuhaiku.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-36" playOrder="36">
+		<navLabel>
+			<text>Why did I write this Haiku about Mageia?</text>
+		</navLabel>
+		<content src="mageiahaiku.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-37" playOrder="37">
+		<navLabel>
+			<text>Linux Mint Haiku Party!</text>
+		</navLabel>
+		<content src="minthaiku.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-38" playOrder="38">
+		<navLabel>
+			<text>I blame Lennart Poettering with a classy haiku</text>
+		</navLabel>
+		<content src="classyhaiku.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-39" playOrder="39">
+		<navLabel>
+			<text>Limericks about package management</text>
+		</navLabel>
+		<content src="limerickspackagemanagement.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-40" playOrder="40">
+		<navLabel>
+			<text>A treatise on the relative drawbacks and merits of Fedora</text>
+		</navLabel>
+		<content src="meritsfedora.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-41" playOrder="41">
+		<navLabel>
+			<text>MY EYES THEY BURN</text>
+		</navLabel>
+		<content src="myeyes.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-42" playOrder="42">
+		<navLabel>
+			<text>Arch gets a limerick</text>
+		</navLabel>
+		<content src="archlimerick.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-43" playOrder="43">
+		<navLabel>
+			<text>Ode to Ubuntu’s Unity Dash</text>
+		</navLabel>
+		<content src="odetounity.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-44" playOrder="44">
+		<navLabel>
+			<text>The Complete History of Ubuntu (Abridged)</text>
+		</navLabel>
+		<content src="historyofubuntu.xhtml" />
+	</navPoint>
+	<navPoint id="navpoint-45" playOrder="45">
+		<navLabel>
+			<text>Back Cover</text>
+		</navLabel>
+		<content src="backcover.xhtml" />
+	</navPoint>
+</navMap>
+</ncx>

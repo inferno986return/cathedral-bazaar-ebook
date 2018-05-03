@@ -1,0 +1,243 @@
+{
+		"comment0": "Metadata.json - Insert the e-book's metadata here, so that the content.opf and toc.ncx files can be filled. May use data for ONIX3 too. WIP",
+
+		"comment1": "Folder metadata - This contains the names of the technical folders, if you change the default names please update them here.",
+		"containerFolder": "OEBPS",
+		"cssFolder": "styles",
+		"imagesFolder": "images",
+		"fontsFolder": "fonts",
+
+		"comment2": "Technical metadata - This is the where the cover image is specified. Recommended to use ePub V2.0.1 over 3.0 for epubVersion and Reflowable rather than Fixed for textPresentation (unless doing a project that requires a specific layout). mobiCover and generateKindle are currently unused but added for futureproofing.",
+		"epubCover": "cover.png",
+		"mobiCover": "cover.png",
+		"fileName": "LinuxIsBadass",
+		"epubVersion": "2.0.1",
+		"textPresentation": "Reflowable",
+		"generateKindle": "no",
+		"generateGoogle": "yes",
+
+		"comment3": "Book metadata - Information about the e-book itself. Language is specified with ISO 639-1. ISBN number can be declared, as well as the Amazon ASIN. Rights can be worldwide, country specific or under a permissable license such as Creative-Commons SA",
+		"title": "Linux is Badass - Slightly More Badass Edition",
+		"titleShort": "Linux is Badass",
+		"creator": "Bryan Lunduke",
+		"subject": "Technology",
+		"publisher": "Lunduke",
+		"ISBN": "978-1-365-05209-5",
+		"ASIN": "1365052095",
+		"language": "en",
+		"rights": "Creative Commons BY-SA-NC 4.0",
+
+		"comment4": "This is the page order that the e-book has. The first number before the colon is the page order, the second is the indentation (default is 1, allowed upto 4), third is the page name and fourth is file itself.",
+		"pages": [
+					{
+						"pageNumber": "0",
+						"indentation": "1",
+						"pageName": "Front Cover",
+						"fileName": "bookcover.xhtml"
+					},
+					{
+						"pageNumber": "1",
+						"indentation": "1",
+						"pageName": "Title",
+						"fileName": "title.xhtml"
+					},
+					{
+						"pageNumber": "2",
+						"indentation": "1",
+						"pageName": "Indicia",
+						"fileName": "indicia.xhtml"
+					},
+					{
+						"pageNumber": "3",
+						"indentation": "1",
+						"pageName": "License",
+						"fileName": "license.xhtml",
+						"anchorNames": {
+							"anchorName0": "Content license",
+							"anchorName1": "E-book license"
+						},
+						"anchorLinks": {
+							"anchorLink0": "#content-license",
+							"anchorLink1": "#ebook-license"
+						}
+					},
+					{
+						"pageNumber": "4",
+						"indentation": "1",
+						"pageName": "Table of Contents",
+						"fileName": "toc.xhtml"
+					},
+					{
+						"pageNumber": "5",
+						"indentation": "1",
+						"pageName": "A Very Boring Introduction",
+						"fileName": "boringintroduction.xhtml"
+					},
+					{
+						"pageNumber": "6",
+						"indentation": "1",
+						"pageName": "A Badass Introduction",
+						"fileName": "badassintroduction.xhtml"
+					},
+					{
+						"pageNumber": "7",
+						"indentation": "1",
+						"pageName": "Badass by Comparison",
+						"fileName": "badassbycomparison.xhtml"
+					},
+					{
+						"pageNumber": "8",
+						"indentation": "1",
+						"pageName": "It just works? Fuck that!",
+						"fileName": "itjustworks.xhtml"
+					},
+					{
+						"pageNumber": "9",
+						"indentation": "1",
+						"pageName": "If everyone on earth drives a 1993 Toyota Corolla... nobody has a badass car",
+						"fileName": "nobodyhasabadasscar.xhtml"
+					},
+					{
+						"pageNumber": "10",
+						"indentation": "1",
+						"pageName": "Say GNU/Linux One More Time. I dare ya",
+						"fileName": "saygnulinux.xhtml"
+					},
+					{
+						"pageNumber": "11",
+						"indentation": "1",
+						"pageName": "Badass Leadership. (Or 'My crazy, neck beard dude can beat up your marketing dude.')",
+						"fileName": "badassleadership.xhtml"
+					},
+					{
+						"pageNumber": "12",
+						"indentation": "1",
+						"pageName": "Linux is Badass – The Adventure",
+						"fileName": "linuxadventure.xhtml",
+						"anchorNames": {
+							"anchorName0": "Part 1",
+							"anchorName1": "Part 2",
+							"anchorName2": "Part 3",
+						 	"anchorName3": "Part 4",
+							"anchorName4": "Part 5",
+							"anchorName5": "Part 6",
+							"anchorName6": "Part 7",
+							"anchorName7": "Part 8",
+							"anchorName8": "Part 9",
+							"anchorName9": "Part 10",
+							"anchorName10": "Part 11",
+							"anchorName11": "Part 12",
+							"anchorName12": "Part 13",
+							"anchorName13": "Part 14",
+							"anchorName14": "Part 15"
+						},
+						"anchorLinks": {
+							"anchorLink0": "#part1",
+							"anchorLink1": "#part2",
+							"anchorLink2": "#part3",
+							"anchorLink3": "#part4",
+							"anchorLink4": "#part5",
+							"anchorLink5": "#part6",
+							"anchorLink6": "#part7",
+							"anchorLink7": "#part8",
+							"anchorLink8": "#part9",
+							"anchorLink9": "#part10",
+							"anchorLink10": "#part11",
+							"anchorLink11": "#part12",
+							"anchorLink12": "#part13",
+							"anchorLink13": "#part14",
+							"anchorLink14": "#part15"
+						}
+					},
+					{
+						"pageNumber": "13",
+						"indentation": "1",
+						"pageName": "Slightly Enhanced Introduction (2014)",
+						"fileName": "enhancedintroduction.xhtml"
+					},
+					{
+						"pageNumber": "14",
+						"indentation": "1",
+						"pageName": "She took my dog, my truck and my gratuitous desktop effects.",
+						"fileName": "shetook.xhtml"
+					},
+					{
+						"pageNumber": "15",
+						"indentation": "1",
+						"pageName": "Farewell, sweet XOrg",
+						"fileName": "farewell.xhtml"
+					},
+					{
+						"pageNumber": "16",
+						"indentation": "1",
+						"pageName": "Woo! Debian Haiku Free-for-all!",
+						"fileName": "debianhaiku.xhtml"
+					},
+					{
+						"pageNumber": "17",
+						"indentation": "1",
+						"pageName": "Ubuntu Haiku Time",
+						"fileName": "ubuntuhaiku.xhtml"
+					},
+					{
+						"pageNumber": "18",
+						"indentation": "1",
+						"pageName": "Why did I write this Haiku about Mageia?",
+						"fileName": "mageiahaiku.xhtml"
+					},
+					{
+						"pageNumber": "19",
+						"indentation": "1",
+						"pageName": "Linux Mint Haiku Party!",
+						"fileName": "minthaiku.xhtml"
+					},
+					{
+						"pageNumber": "20",
+						"indentation": "1",
+						"pageName": "I blame Lennart Poettering with a classy haiku",
+						"fileName": "classyhaiku.xhtml"
+					},
+					{
+						"pageNumber": "21",
+						"indentation": "1",
+						"pageName": "Limericks about package management",
+						"fileName": "limerickspackagemanagement.xhtml"
+					},
+					{
+						"pageNumber": "22",
+						"indentation": "1",
+						"pageName": "A treatise on the relative drawbacks and merits of Fedora",
+						"fileName": "meritsfedora.xhtml"
+					},
+					{
+						"pageNumber": "23",
+						"indentation": "1",
+						"pageName": "MY EYES THEY BURN",
+						"fileName": "myeyes.xhtml"
+					},
+					{
+						"pageNumber": "24",
+						"indentation": "1",
+						"pageName": "Arch gets a limerick",
+						"fileName": "archlimerick.xhtml"
+					},
+					{
+						"pageNumber": "25",
+						"indentation": "1",
+						"pageName": "Ode to Ubuntu’s Unity Dash",
+						"fileName": "odetounity.xhtml"
+					},
+					{
+						"pageNumber": "26",
+						"indentation": "1",
+						"pageName": "The Complete History of Ubuntu (Abridged)",
+						"fileName": "historyofubuntu.xhtml"
+					},
+					{
+						"pageNumber": "27",
+						"indentation": "1",
+						"pageName": "Back Cover",
+						"fileName": "backcover.xhtml"
+					}
+				]
+}

@@ -254,6 +254,16 @@ p.ref, .ref
 	font-size: 0.9em;
 }
 
+p.ref-noindent-quote
+{
+	text-align: justify;
+	text-indent: 0em;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 0.9em;
+	font-style: normal;
+}
+
 /*Book-specific paragraphs*/
 
 p.protip

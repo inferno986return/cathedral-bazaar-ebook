@@ -70,171 +70,95 @@
 					{
 						"pageNumber": "5",
 						"indentation": "1",
-						"pageName": "A Very Boring Introduction",
-						"fileName": "boringintroduction.xhtml"
+						"pageName": "The Cathedral and the Bazaar",
+						"fileName": "toc.xhtml"
 					},
 					{
 						"pageNumber": "6",
 						"indentation": "1",
-						"pageName": "A Badass Introduction",
-						"fileName": "badassintroduction.xhtml"
+						"pageName": "The Mail Must Get Through",
+						"fileName": "toc.xhtml"
 					},
 					{
 						"pageNumber": "7",
 						"indentation": "1",
-						"pageName": "Badass by Comparison",
-						"fileName": "badassbycomparison.xhtml"
+						"pageName": "The Importance of Having Users",
+						"fileName": "toc.xhtml"
 					},
 					{
 						"pageNumber": "8",
 						"indentation": "1",
-						"pageName": "It just works? Fuck that!",
-						"fileName": "itjustworks.xhtml"
+						"pageName": "Release Early, Release Often",
+						"fileName": "toc.xhtml"
 					},
 					{
 						"pageNumber": "9",
 						"indentation": "1",
-						"pageName": "If everyone on earth drives a 1993 Toyota Corolla... nobody has a badass car",
-						"fileName": "nobodyhasabadasscar.xhtml"
+						"pageName": "How Many Eyeballs Tame Complexity",
+						"fileName": "toc.xhtml"
 					},
 					{
 						"pageNumber": "10",
 						"indentation": "1",
-						"pageName": "Say GNU/Linux One More Time. I dare ya",
-						"fileName": "saygnulinux.xhtml"
+						"pageName": "When Is a Rose Not a Rose?",
+						"fileName": "toc.xhtml"
 					},
 					{
 						"pageNumber": "11",
 						"indentation": "1",
-						"pageName": "Badass Leadership. (Or 'My crazy, neck beard dude can beat up your marketing dude.')",
-						"fileName": "badassleadership.xhtml"
+						"pageName": "Popclient becomes Fetchmail",
+						"fileName": "toc.xhtml"
 					},
 					{
 						"pageNumber": "12",
 						"indentation": "1",
-						"pageName": "Linux is Badass – The Adventure",
-						"fileName": "linuxadventure.xhtml",
-						"anchorNames": {
-							"anchorName0": "Part 1",
-							"anchorName1": "Part 2",
-							"anchorName2": "Part 3",
-						 	"anchorName3": "Part 4",
-							"anchorName4": "Part 5",
-							"anchorName5": "Part 6",
-							"anchorName6": "Part 7",
-							"anchorName7": "Part 8",
-							"anchorName8": "Part 9",
-							"anchorName9": "Part 10",
-							"anchorName10": "Part 11",
-							"anchorName11": "Part 12",
-							"anchorName12": "Part 13",
-							"anchorName13": "Part 14",
-							"anchorName14": "Part 15"
-						},
-						"anchorLinks": {
-							"anchorLink0": "#part1",
-							"anchorLink1": "#part2",
-							"anchorLink2": "#part3",
-							"anchorLink3": "#part4",
-							"anchorLink4": "#part5",
-							"anchorLink5": "#part6",
-							"anchorLink6": "#part7",
-							"anchorLink7": "#part8",
-							"anchorLink8": "#part9",
-							"anchorLink9": "#part10",
-							"anchorLink10": "#part11",
-							"anchorLink11": "#part12",
-							"anchorLink12": "#part13",
-							"anchorLink13": "#part14",
-							"anchorLink14": "#part15"
-						}
+						"pageName": "Fetchmail Grows Up",
+						"fileName": "toc.xhtml"
 					},
 					{
 						"pageNumber": "13",
 						"indentation": "1",
-						"pageName": "Slightly Enhanced Introduction (2014)",
-						"fileName": "enhancedintroduction.xhtml"
+						"pageName": "A Few More Lessons from Fetchmail",
+						"fileName": "toc.xhtml"
 					},
 					{
 						"pageNumber": "14",
 						"indentation": "1",
-						"pageName": "She took my dog, my truck and my gratuitous desktop effects.",
-						"fileName": "shetook.xhtml"
+						"pageName": "Necessary Preconditions for the Bazaar Style",
+						"fileName": "toc.xhtml"
 					},
 					{
 						"pageNumber": "15",
 						"indentation": "1",
-						"pageName": "Farewell, sweet XOrg",
-						"fileName": "farewell.xhtml"
+						"pageName": "The Social Context of Open-Source Software",
+						"fileName": "socialcontext.xhtml"
 					},
 					{
 						"pageNumber": "16",
 						"indentation": "1",
-						"pageName": "Woo! Debian Haiku Free-for-all!",
-						"fileName": "debianhaiku.xhtml"
+						"pageName": "On Management and the Maginot Line",
+						"fileName": "managementmaginot.xhtml"
 					},
 					{
 						"pageNumber": "17",
 						"indentation": "1",
-						"pageName": "Ubuntu Haiku Time",
-						"fileName": "ubuntuhaiku.xhtml"
+						"pageName": "Epilog: Netscape Embraces the Bazaar",
+						"fileName": "epilog.xhtml"
 					},
 					{
 						"pageNumber": "18",
 						"indentation": "1",
-						"pageName": "Why did I write this Haiku about Mageia?",
-						"fileName": "mageiahaiku.xhtml"
+						"pageName": "Bibliography",
+						"fileName": "bibliography.xhtml"
 					},
 					{
 						"pageNumber": "19",
 						"indentation": "1",
-						"pageName": "Linux Mint Haiku Party!",
-						"fileName": "minthaiku.xhtml"
+						"pageName": "Acknowledgements",
+						"fileName": "acknowledgements.xhtml"
 					},
 					{
 						"pageNumber": "20",
-						"indentation": "1",
-						"pageName": "I blame Lennart Poettering with a classy haiku",
-						"fileName": "classyhaiku.xhtml"
-					},
-					{
-						"pageNumber": "21",
-						"indentation": "1",
-						"pageName": "Limericks about package management",
-						"fileName": "limerickspackagemanagement.xhtml"
-					},
-					{
-						"pageNumber": "22",
-						"indentation": "1",
-						"pageName": "A treatise on the relative drawbacks and merits of Fedora",
-						"fileName": "meritsfedora.xhtml"
-					},
-					{
-						"pageNumber": "23",
-						"indentation": "1",
-						"pageName": "MY EYES THEY BURN",
-						"fileName": "myeyes.xhtml"
-					},
-					{
-						"pageNumber": "24",
-						"indentation": "1",
-						"pageName": "Arch gets a limerick",
-						"fileName": "archlimerick.xhtml"
-					},
-					{
-						"pageNumber": "25",
-						"indentation": "1",
-						"pageName": "Ode to Ubuntu’s Unity Dash",
-						"fileName": "odetounity.xhtml"
-					},
-					{
-						"pageNumber": "26",
-						"indentation": "1",
-						"pageName": "The Complete History of Ubuntu (Abridged)",
-						"fileName": "historyofubuntu.xhtml"
-					},
-					{
-						"pageNumber": "27",
 						"indentation": "1",
 						"pageName": "Back Cover",
 						"fileName": "backcover.xhtml"

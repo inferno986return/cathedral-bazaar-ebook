@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="http://www.w3.org/1999/xhtml; charset=utf-8" http-equiv="Content-Type"/>
+<link href="styles/zstylesheet.css" rel="stylesheet" type="text/css"/>
+<title>Popclient becomes Fetchmail</title>
+</head>
+
+<body>
+
+	<h1 class="heading">Popclient becomes Fetchmail</h1>
+
+	<p class="noindent top"><span class="initial">T</span>he real turning point in the project was when Harry Hochheiser sent me his scratch code for forwarding mail to the client machine’s SMTP port. I realized almost immediately that a reliable implementation of this feature would make all the other mail delivery modes next to obsolete.</p>
+	<p>For many weeks I had been tweaking fetchmail rather incrementally while feeling like the interface design was serviceable but grubby—inelegant and with too many exiguous options hanging out all over. The options to dump fetched mail to a mailbox file or standard output particularly bothered me, but I couldn’t figure out why.</p>
+	<p>(If you don’t care about the technicalia of Internet mail, the next two paragraphs can be safely skipped.)</p>
+	<p>What I saw when I thought about SMTP forwarding was that popclient had been trying to do too many things. It had been designed to be both a mail transport agent (MTA) and a local delivery agent (MDA). With SMTP forwarding, it could get out of the MDA business and be a pure MTA, handing off mail to other programs for local delivery just as sendmail does.</p>
+	<p>Why mess with all the complexity of configuring a mail delivery agent or setting up lock-and-append on a mailbox when port 25 is almost guaranteed to be there on any platform with TCP/IP support in the first place? Especially when this means retrieved mail is guaranteed to look like normal sender-initiated SMTP mail, which is really what we want anyway.</p>
+	<p>(Back to a higher level....)</p>
+	<p>Even if you didn’t follow the preceding technical jargon, there are several important lessons here. First, this SMTP-forwarding concept was the biggest single payoff I got from consciously trying to emulate Linus’s methods. A user gave me this terrific idea—all I had to do was understand the implications.</p>
+
+	<p class="top bottom">11. The next best thing to having good ideas is recognizing good ideas from your users. Sometimes the latter is better.</p>
+
+	<p>Interestingly enough, you will quickly find that if you are completely and self-deprecatingly truthful about how much you owe other people, the world at large will treat you as though you did every bit of the invention yourself and are just being becomingly modest about your innate genius. We can all see how well this worked for Linus!</p>
+	<p>(When I gave my talk at the first Perl Conference in August 1997, hacker extraordinaire Larry Wall was in the front row. As I got to the last line above he called out, religious-revival style, “Tell it, tell it, brother!”. The whole audience laughed, because they knew this had worked for the inventor of Perl, too.)</p>
+	<p>After a very few weeks of running the project in the same spirit, I began to get similar praise not just from my users but from other people to whom the word leaked out. I stashed away some of that email; I’ll look at it again sometime if I ever start wondering whether my life has been worthwhile :-).</p>
+	<p>But there are two more fundamental, non-political lessons here that are general to all kinds of design.</p>
+
+	<p class="top bottom">12. Often, the most striking and innovative solutions come from realizing that your concept of the problem was wrong.</p>
+
+	<p>I had been trying to solve the wrong problem by continuing to develop popclient as a combined MTA/MDA with all kinds of funky local delivery modes. Fetchmail’s design needed to be rethought from the ground up as a pure MTA, a part of the normal SMTP-speaking Internet mail path.</p>
+	<p>When you hit a wall in development—when you find yourself hard put to think past the next patch—it’s often time to ask not whether you’ve got the right answer, but whether you’re asking the right question. Perhaps the problem needs to be reframed.</p>
+	<p>Well, I had reframed my problem. Clearly, the right thing to do was (1) hack SMTP forwarding support into the generic driver, (2) make it the default mode, and (3) eventually throw out all the other delivery modes, especially the deliver-to-file and deliver-to-standard-output options.</p>
+	<p>I hesitated over step 3 for some time, fearing to upset long-time popclient users dependent on the alternate delivery mechanisms. In theory, they could immediately switch to <span class="mono">.forward</span> files or their non-sendmail equivalents to get the same effects. In practice the transition might have been messy.</p>
+	<p>But when I did it, the benefits proved huge. The cruftiest parts of the driver code vanished. Configuration got radically simpler—no more grovelling around for the system MDA and user’s mailbox, no more worries about whether the underlying OS supports file locking.</p>
+	<p>Also, the only way to lose mail vanished. If you specified delivery to a file and the disk got full, your mail got lost. This can’t happen with SMTP forwarding because your SMTP listener won’t return OK unless the message can be delivered or at least spooled for later delivery.</p>
+	<p>Also, performance improved (though not so you’d notice it in a single run). Another not insignificant benefit of this change was that the manual page got a lot simpler.</p>
+	<p>Later, I had to bring delivery via a user-specified local MDA back in order to allow handling of some obscure situations involving dynamic SLIP. But I found a much simpler way to do it.</p>
+	<p>The moral? Don’t hesitate to throw away superannuated features when you can do it without loss of effectiveness. Antoine de Saint-Exupéry (who was an aviator and aircraft designer when he wasn’t authoring classic children’s books) said:</p>
+
+	<p class="top bottom">13. “Perfection (in design) is achieved not when there is nothing more to add, but rather when there is nothing more to take away.”</p>
+
+	<p>When your code is getting both better and simpler, that is when you <i>know</i> it’s right. And in the process, the fetchmail design acquired an identity of its own, different from the ancestral popclient.</p>
+	<p>It was time for the name change. The new design looked much more like a dual of sendmail than the old popclient had; both are MTAs, but where sendmail pushes then delivers, the new popclient pulls then delivers. So, two months off the blocks, I renamed it fetchmail.</p>
+	<p>There is a more general lesson in this story about how SMTP delivery came to fetchmail. It is not only debugging that is parallelizable; development and (to a perhaps surprising extent) exploration of design space is, too. When your development mode is rapidly iterative, development and enhancement may become special cases of debugging—fixing `bugs of omission’ in the original capabilities or concept of the software.</p>
+	<p>Even at a higher level of design, it can be very valuable to have lots of co-developers random-walking through the design space near your product. Consider the way a puddle of water finds a drain, or better yet how ants find food: exploration essentially by diffusion, followed by exploitation mediated by a scalable communication mechanism. This works very well; as with Harry Hochheiser and me, one of your outriders may well find a huge win nearby that you were just a little too close-focused to see.</p>
+
+</body>
+</html>

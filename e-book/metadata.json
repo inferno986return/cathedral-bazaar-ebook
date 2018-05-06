@@ -64,101 +64,119 @@
 					{
 						"pageNumber": "4",
 						"indentation": "1",
-						"pageName": "Table of Contents",
-						"fileName": "toc.xhtml"
+						"pageName": "Abstract",
+						"fileName": "abstract.xhtml"
 					},
 					{
 						"pageNumber": "5",
 						"indentation": "1",
-						"pageName": "The Cathedral and the Bazaar",
-						"fileName": "toc.xhtml"
+						"pageName": "Revision History",
+						"fileName": "revisionhistory.xhtml"
 					},
 					{
 						"pageNumber": "6",
 						"indentation": "1",
-						"pageName": "The Mail Must Get Through",
+						"pageName": "Table of Contents",
 						"fileName": "toc.xhtml"
 					},
 					{
 						"pageNumber": "7",
 						"indentation": "1",
-						"pageName": "The Importance of Having Users",
-						"fileName": "toc.xhtml"
+						"pageName": "The Cathedral and the Bazaar",
+						"fileName": "cathedralbazaar.xhtml"
 					},
 					{
 						"pageNumber": "8",
 						"indentation": "1",
-						"pageName": "Release Early, Release Often",
-						"fileName": "toc.xhtml"
+						"pageName": "The Mail Must Get Through",
+						"fileName": "mailthrough.xhtml"
 					},
 					{
 						"pageNumber": "9",
 						"indentation": "1",
-						"pageName": "How Many Eyeballs Tame Complexity",
-						"fileName": "toc.xhtml"
+						"pageName": "The Importance of Having Users",
+						"fileName": "importanceusers.xhtml"
 					},
 					{
 						"pageNumber": "10",
 						"indentation": "1",
-						"pageName": "When Is a Rose Not a Rose?",
-						"fileName": "toc.xhtml"
+						"pageName": "Release Early, Release Often",
+						"fileName": "releaseearly.xhtml"
 					},
 					{
 						"pageNumber": "11",
 						"indentation": "1",
-						"pageName": "Popclient becomes Fetchmail",
-						"fileName": "toc.xhtml"
+						"pageName": "How Many Eyeballs Tame Complexity",
+						"fileName": "eyeballscomplexity.xhtml"
 					},
 					{
 						"pageNumber": "12",
 						"indentation": "1",
-						"pageName": "Fetchmail Grows Up",
-						"fileName": "toc.xhtml"
+						"pageName": "When Is a Rose Not a Rose?",
+						"fileName": "notarose.xhtml"
 					},
 					{
 						"pageNumber": "13",
 						"indentation": "1",
-						"pageName": "A Few More Lessons from Fetchmail",
-						"fileName": "toc.xhtml"
+						"pageName": "Popclient becomes Fetchmail",
+						"fileName": "popclientfetchmail.xhtml"
 					},
 					{
 						"pageNumber": "14",
 						"indentation": "1",
-						"pageName": "Necessary Preconditions for the Bazaar Style",
-						"fileName": "toc.xhtml"
+						"pageName": "Fetchmail Grows Up",
+						"fileName": "fetchmailgrowsup.xhtml"
 					},
 					{
 						"pageNumber": "15",
+						"indentation": "1",
+						"pageName": "A Few More Lessons from Fetchmail",
+						"fileName": "lessonsfetchmail.xhtml"
+					},
+					{
+						"pageNumber": "16",
+						"indentation": "1",
+						"pageName": "Necessary Preconditions for the Bazaar Style",
+						"fileName": "neccessarypreconditions.xhtml"
+					},
+					{
+						"pageNumber": "17",
 						"indentation": "1",
 						"pageName": "The Social Context of Open-Source Software",
 						"fileName": "socialcontext.xhtml"
 					},
 					{
-						"pageNumber": "16",
+						"pageNumber": "18",
 						"indentation": "1",
 						"pageName": "On Management and the Maginot Line",
 						"fileName": "managementmaginot.xhtml"
 					},
 					{
-						"pageNumber": "17",
+						"pageNumber": "19",
 						"indentation": "1",
 						"pageName": "Epilog: Netscape Embraces the Bazaar",
 						"fileName": "epilog.xhtml"
 					},
 					{
-						"pageNumber": "18",
+						"pageNumber": "20",
+						"indentation": "1",
+						"pageName": "Lessons for Creating Good Open Source Software",
+						"fileName": "lessonsgood.xhtml"
+					},
+					{
+						"pageNumber": "21",
 						"indentation": "1",
 						"pageName": "Bibliography",
 						"fileName": "bibliography.xhtml"
 					},
 					{
-						"pageNumber": "19",
+						"pageNumber": "22",
 						"indentation": "1",
 						"pageName": "Acknowledgements",
 						"fileName": "acknowledgements.xhtml"
 					},
 					{
-						"pageNumber": "20",
+						"pageNumber": "23",
 						"indentation": "1",
 						"pageName": "Back Cover",
 						"fileName": "backcover.xhtml"

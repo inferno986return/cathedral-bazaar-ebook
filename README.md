@@ -1,7 +1,7 @@
 # The Cathedral & the Bazaar
 The Cathedral & the Bazaar, The E-book.
 
-This is to my knowledge the only free ePub of Eric S. Raymond's iconic essay *The Cathedral & the Bazaar*.
+This is to my knowledge the only free ePub of Eric S. Raymond's iconic essay *The Cathedral & the Bazaar*. This e-book should qualify as a "minor change" under the license, though I have shifted the notes into each chapter and added a full list of the lessons at the end.
 
 Support Eric S. Raymond via Patreon: https://www.patreon.com/esr
 

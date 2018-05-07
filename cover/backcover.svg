@@ -27,20 +27,20 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
      inkscape:cx="293.02834"
-     inkscape:cy="377.61285"
+     inkscape:cy="520.46999"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="2560"
      inkscape:window-height="1344"
-     inkscape:window-x="0"
-     inkscape:window-y="1"
-     inkscape:window-maximized="1" />
+     inkscape:window-x="40"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,13 +58,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-58.874945)">
-    <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.39600134;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect815"
-       width="158.80534"
-       height="237.94814"
-       x="-0.24434143"
-       y="56.027977" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:125%;font-family:Overpass;-inkscape-font-specification:Overpass;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -78,36 +71,56 @@
          style="stroke-width:0.26458332px" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:125%;font-family:Overpass;-inkscape-font-specification:Overpass;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="3.9441903"
-       y="117.1429"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:125%;font-family:Overpass;-inkscape-font-specification:Overpass;letter-spacing:0px;word-spacing:0px;fill:#ed7800;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="5.0781188"
+       y="89.550644"
        id="text1025"><tspan
          sodipodi:role="line"
-         x="3.9441903"
-         y="117.1429"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99444485px;font-family:Overpass;-inkscape-font-specification:'Overpass Italic';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
-         id="tspan845">“This book has no redeeming</tspan><tspan
+         x="5.0781188"
+         y="89.550644"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99444485px;font-family:Overpass;-inkscape-font-specification:'Overpass Italic';fill:#ed7800;fill-opacity:1;stroke-width:0.26458332px;"
+         id="tspan861">“The most important book </tspan><tspan
          sodipodi:role="line"
-         x="3.9441903"
-         y="122.87553"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99444485px;font-family:Overpass;-inkscape-font-specification:'Overpass Italic';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
-         id="tspan871" /><tspan
+         x="5.0781188"
+         y="95.283279"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99444485px;font-family:Overpass;-inkscape-font-specification:'Overpass Italic';fill:#ed7800;fill-opacity:1;stroke-width:0.26458332px;"
+         id="tspan859"></tspan><tspan
          sodipodi:role="line"
-         x="3.9441903"
-         y="130.46025"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99444485px;font-family:Overpass;-inkscape-font-specification:'Overpass Italic';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
-         id="tspan861">value. Do not read it.”</tspan></text>
+         x="5.0781188"
+         y="102.868"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99444485px;font-family:Overpass;-inkscape-font-specification:'Overpass Italic';fill:#ed7800;fill-opacity:1;stroke-width:0.26458332px;"
+         id="tspan862">about technology today,</tspan><tspan
+         sodipodi:role="line"
+         x="5.0781188"
+         y="108.60065"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99444485px;font-family:Overpass;-inkscape-font-specification:'Overpass Italic';fill:#ed7800;fill-opacity:1;stroke-width:0.26458332px;"
+         id="tspan855"></tspan><tspan
+         sodipodi:role="line"
+         x="5.0781188"
+         y="116.18536"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99444485px;font-family:Overpass;-inkscape-font-specification:'Overpass Italic';fill:#ed7800;fill-opacity:1;stroke-width:0.26458332px;"
+         id="tspan857">with implications that go far </tspan><tspan
+         sodipodi:role="line"
+         x="5.0781188"
+         y="121.91801"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99444485px;font-family:Overpass;-inkscape-font-specification:'Overpass Italic';fill:#ed7800;fill-opacity:1;stroke-width:0.26458332px;"
+         id="tspan864"></tspan><tspan
+         sodipodi:role="line"
+         x="5.0781188"
+         y="129.50272"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99444485px;font-family:Overpass;-inkscape-font-specification:'Overpass Italic';fill:#ed7800;fill-opacity:1;stroke-width:0.26458332px;"
+         id="tspan866">beyond programming.”</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:125%;font-family:Overpass;-inkscape-font-specification:Overpass;letter-spacing:0px;word-spacing:0px;fill:#fffffe;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="72.78537"
-       y="147.07979"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:125%;font-family:Overpass;-inkscape-font-specification:Overpass;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="76.376144"
+       y="145.75687"
        id="text865"><tspan
          sodipodi:role="line"
          id="tspan863"
-         x="72.78537"
-         y="147.07979"
-         style="font-size:10.58333397px;fill:#fffffe;fill-opacity:1;stroke-width:0.26458332px">— Bryan Lunduke</tspan></text>
+         x="76.376144"
+         y="145.75687"
+         style="font-size:10.58333397px;fill:#ed7800;fill-opacity:1;stroke-width:0.26458332px">— Gary Kawasaki</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:125%;font-family:Overpass;-inkscape-font-specification:Overpass;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -121,94 +134,168 @@
          style="stroke-width:0.26458332px" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:125%;font-family:Overpass;-inkscape-font-specification:Overpass;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="8.6934519"
-       y="169.24399"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:125%;font-family:Overpass;-inkscape-font-specification:Overpass;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="5.6696424"
+       y="173.77971"
        id="text887"><tspan
          sodipodi:role="line"
-         id="tspan885"
-         x="8.6934519"
-         y="169.24399"
-         style="fill:#ffffff;stroke-width:0.26458332px">We all know that Linux is badass; now there's a book to prove it. </tspan><tspan
-         sodipodi:role="line"
-         x="8.6934519"
-         y="174.97662"
-         style="fill:#ffffff;stroke-width:0.26458332px"
-         id="tspan899" /><tspan
-         sodipodi:role="line"
-         x="8.6934519"
-         y="180.70926"
-         style="fill:#ffffff;stroke-width:0.26458332px"
-         id="tspan910">Sure to convert even the most die-hard Windows or Mac OS users,<tspan
+         x="5.6696424"
+         y="173.77971"
+         style="fill:#000000;stroke-width:0.26458332px"
+         id="tspan893">Eric S. Raymond’s famous essay-turned-book <tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:'Overpass Italic'"
-   id="tspan901" /></tspan><tspan
+   id="tspan1652">“The Cathedral and the</tspan></tspan><tspan
          sodipodi:role="line"
-         x="8.6934519"
-         y="186.44191"
-         style="fill:#ffffff;stroke-width:0.26458332px"
-         id="tspan906"><tspan
+         x="5.6696424"
+         y="179.51234"
+         style="fill:#000000;stroke-width:0.26458332px"
+         id="tspan1632"><tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:'Overpass Italic'"
-   id="tspan908">“Linux is Badass” </tspan>takes you on a magical journey filled with adventure, </tspan><tspan
+   id="tspan1630">Bazaar”</tspan> popularised an open approach to software development enough</tspan><tspan
          sodipodi:role="line"
-         x="8.6934519"
-         y="192.17455"
-         style="fill:#ffffff;stroke-width:0.26458332px"
-         id="tspan893">Linux, bad poetry and swear words.</tspan></text>
+         x="5.6696424"
+         y="185.24498"
+         style="fill:#000000;stroke-width:0.26458332px"
+         id="tspan1638">to change Netscape’s approach towards Netscape Communicator at</tspan><tspan
+         sodipodi:role="line"
+         x="5.6696424"
+         y="190.97763"
+         style="fill:#000000;stroke-width:0.26458332px"
+         id="tspan1642">the time.</tspan><tspan
+         sodipodi:role="line"
+         x="5.6696424"
+         y="196.71027"
+         style="fill:#000000;stroke-width:0.26458332px"
+         id="tspan1646"></tspan><tspan
+         sodipodi:role="line"
+         x="5.6696424"
+         y="202.4429"
+         style="fill:#000000;stroke-width:0.26458332px"
+         id="tspan1648">Read this famous essay. The technology may be old, but the philosophy</tspan><tspan
+         sodipodi:role="line"
+         x="5.6696424"
+         y="208.17554"
+         style="fill:#000000;stroke-width:0.26458332px"
+         id="tspan1650">certainly isn’t. </tspan></text>
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.39687499;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.39687499;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect913"
        width="150.43452"
        height="44.601189"
-       x="4.1577377"
-       y="248.05203" />
-    <image
-       y="248.99696"
-       x="106.21133"
-       id="image1060"
-       xlink:href="data:image/png;base64,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 SQAAAABJRU5ErkJggg== "
-       preserveAspectRatio="none"
-       height="37.608631"
-       width="37.608631" />
+       x="4.3467259"
+       y="233.31096" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:125%;font-family:'OCR A Std';-inkscape-font-specification:'OCR A Std';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="8.5044641"
-       y="264.11603"
+       x="8.6934519"
+       y="249.37495"
        id="text1065"><tspan
          sodipodi:role="line"
-         id="tspan1063"
-         x="8.5044641"
-         y="264.11603"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono';stroke-width:0.26458332px">ISBN-13:<tspan
-   style="-inkscape-font-specification:Overpass;font-family:Overpass;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-   id="tspan841">	</tspan>978-1-365-05209-5</tspan><tspan
+         x="8.6934519"
+         y="249.37495"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono';fill:#000000;stroke-width:0.26458332px"
+         id="tspan839">ISBN-13: 978-0-596001087</tspan><tspan
          sodipodi:role="line"
-         x="8.5044641"
-         y="269.84866"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono';stroke-width:0.26458332px"
-         id="tspan1071"></tspan><tspan
+         x="8.6934519"
+         y="255.10759"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono';fill:#000000;stroke-width:0.26458332px"
+         id="tspan875"></tspan><tspan
          sodipodi:role="line"
-         x="8.5044641"
-         y="275.59048"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono';stroke-width:0.26458332px"
-         id="tspan839">ASIN:<tspan
-   style="-inkscape-font-specification:Overpass;font-family:Overpass;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-   id="tspan843"> </tspan>1365052095</tspan><tspan
+         x="8.6934519"
+         y="260.8494"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono';fill:#000000;stroke-width:0.26458332px"
+         id="tspan877">ASIN: 0596001088</tspan><tspan
          sodipodi:role="line"
-         x="8.5044641"
-         y="281.32312"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono';stroke-width:0.26458332px"
+         x="8.6934519"
+         y="266.58203"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono';fill:#000000;stroke-width:0.26458332px"
          id="tspan1067" /></text>
+    <image
+       y="58.837147"
+       x="-0.20788592"
+       id="image1501"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlsAAAA4CAYAAADKOj2sAAAABHNCSVQICAgIfAhkiAAAAThJREFU
+eJzt1rENggAAAEExxp5Wa1agdQJbF2I2a6exssAl+JCQuwm+/OG5vNcTAACbez3ut/PeEQAAR2a2
+AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABC
+ZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsA
+IGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2
+AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABC
+ZgsAIGS2AABCl3kaP3tHAAAc0XD9ff+FfQcClES/MAAAAABJRU5ErkJggg==
+"
+       preserveAspectRatio="none"
+       height="14.816667"
+       width="159.54375" />
+    <image
+       width="159.54375"
+       height="14.816667"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlsAAAA4CAYAAADKOj2sAAAABHNCSVQICAgIfAhkiAAAAThJREFU
+eJzt1rENggAAAEExxp5Wa1agdQJbF2I2a6exssAl+JCQuwm+/OG5vNcTAACbez3ut/PeEQAAR2a2
+AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABC
+ZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsA
+IGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2
+AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABCZgsAIGS2AABC
+ZgsAIGS2AABCl3kaP3tHAAAc0XD9ff+FfQcClES/MAAAAABJRU5ErkJggg==
+"
+       id="image1504"
+       x="0.17009336"
+       y="282.22107" />
+    <image
+       y="234.05499"
+       x="104.6994"
+       id="image1606"
+       xlink:href="data:image/png;base64,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
+
+"
+       preserveAspectRatio="none"
+       height="38.511906"
+       width="38.511906" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:125%;font-family:'OCR A Std';-inkscape-font-specification:'OCR A Std';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="101.29764"
-       y="289.2514"
+       x="101.48663"
+       y="274.51035"
        id="text1077"><tspan
          sodipodi:role="line"
          id="tspan1075"
-         x="101.29764"
-         y="289.2514"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono';stroke-width:0.26458332px">978-1-365-05209-5</tspan></text>
+         x="101.48663"
+         y="274.51035"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono';fill:#000000;stroke-width:0.26458332px">978-0-596-00108-7</tspan></text>
   </g>
 </svg>
